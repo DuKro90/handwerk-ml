@@ -1,0 +1,50 @@
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*.swn
+*.iml
+
+# OS
+.DS_Store
+.env.local
+.env.*.local
+Thumbs.db
+
+# Testing
+.pytest_cache
+.coverage
+htmlcov/
+
+# Project specific
+db.sqlite3
+documents_storage/
+celery_logs/
+.env
+
+# Old requirements (use requirements_fastapi.txt only!)
+requirements.txt
+requirements-minimal.txt
+requirements-simple.txt
+
+# Django (not needed)
+manage.py
+wsgi.py
