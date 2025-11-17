@@ -1,0 +1,15 @@
+# Absolut essenzielle Django Pakete
+Django==4.2.8
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+psycopg2-binary==2.9.9
+python-decouple==3.8
+
+# Testing
+pytest==7.4.3
+pytest-django==4.7.0
+faker==20.1.0
+
+# Utilities
+python-dotenv==1.0.0
+requests==2.31.0

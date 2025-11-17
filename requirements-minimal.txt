@@ -1,0 +1,9 @@
+# Minimal Django Setup (keine Compiler erforderlich)
+Django==4.2.8
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+python-decouple==3.8
+requests==2.31.0
+pytest==7.4.3
+pytest-django==4.7.0
+python-dotenv==1.0.0
