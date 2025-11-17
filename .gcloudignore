@@ -1,0 +1,43 @@
+# Exclude Django/Old Files
+manage.py
+pytest.ini
+handwerk_ml/
+calculator/
+db.sqlite3
+documents_storage/
+
+# Exclude pip artifacts
+=1.5.0
+=2.0.0
+=3.0.0
+
+# Exclude Docker Compose (not needed in cloud)
+docker-compose.yml
+Dockerfile.celery
+Dockerfile.fastapi
+
+# Exclude git and cache
+.git/
+.gitignore
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Exclude old requirements files
+requirements.txt
+requirements-minimal.txt
+requirements-simple.txt
+requirements-dev.txt
+
+# Exclude logs and temporary files
+logs/
+*.log
+.env
+.env.local
+*.swp
+*.swo
+
+# Exclude documentation (reduces upload size)
+*.md
+docs/
